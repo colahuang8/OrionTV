@@ -21,7 +21,6 @@ const BREAKPOINTS = {
 };
 
 const getDeviceType = (width: number): DeviceType => {
-  return "mobile";
   if (Platform.isTV) return "tv";
       
   if (width >= BREAKPOINTS.tv.min) return "tv";
