@@ -37,6 +37,7 @@
     },
     "name": "OrionTV",
     "slug": "OrionTV",
+    "platforms": ["android", "ios"],
     "version": "1.3.0",
     "orientation": "default",
     "icon": "./assets/images/icon.png",
